@@ -1,0 +1,172 @@
+
+
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+.card-header {
+  font-size: 3.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading{
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+.blue-section {
+  background-color: #A0D7D9;
+  color: white;
+}
+
+.purple-section {
+  background-color: #AE99BF;
+  color: #f8f8f8;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+
+.custom-download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+.title-image {
+  width: 60%;
+  margin-left: 15%;
+  transform: rotate(15deg);
+  right: 20%;
+  position: absolute;
+}
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* Feature Box */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.25rem;
+}
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #F4CBA1;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #E2A3B4;
+}
+
+/* Testimonials */
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+/* Title Section */
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+    margin-left: 0;
+  }
+}
+
+
+
+/* Footer */
+
+.social-icon {
+  margin: 10px 20px;
+}
