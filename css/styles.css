@@ -55,6 +55,10 @@ p {
   background-color: #fff;
 }
 
+.orange-section {
+  background-color: #F4CBA1;
+}
+
 /* Navation Bar */
 .navbar {
   padding: 0 0 4.5rem;
