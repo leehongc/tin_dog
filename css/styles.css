@@ -151,6 +151,11 @@ p {
   line-height: 1.5;
 }
 
+/* Contact form */
+.contact-text {
+  color: #8f8f8f;
+}
+
 
 @media (max-width: 1028px) {
 

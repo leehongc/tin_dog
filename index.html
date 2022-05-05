@@ -192,7 +192,7 @@
           </div>
           <div class="card-body">
             <h2 class="price-text">$99 / mo</h2>
-            <p>Pirority Listing</p>
+            <p>Priority Listing</p>
             <p>Unlimited Matches</p>
             <p>Unlimited Messages</p>
             <p>Unlimited App Usage</p>
@@ -215,24 +215,60 @@
     </div>
   </section>
 
-  <!-- Contact -->
+  <!-- Contact form -->
 
   <section class="white-section" id="contact">
     <div class="container-fluid">
       <div class="card">
-        <div class="card-header">
-          <h1>Contact Us</h1>
-        </div>
+
+        <!-- Card content -->
         <div class="card-body">
-          <form class="" action="index.html" method="post">
-            <label for="your_name">Your name:</label><br>
-            <input type="text" id="your_name" name="" value=""><br><br>
-            <label for="your_email">Your email:</label><br>
-            <input type="email" id="your_email" name="" value=""><br><br>
-            <label for="">Your message:</label><br>
-            <textarea name="name" rows="8" cols="60"></textarea><br><br>
-            <input type="submit" name="submit" value="Submit">
-          </form>
+
+          <h1>Contact us</h1><br>
+          <p> Do you have any questions? Please do not hesistate to contact us directly.
+            Our team will get back to you within a matter of hours to help you</p><br>
+
+          <div class="row">
+
+            <div class="col">
+
+              <form class="" action="index.html" method="post">
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="name" class="contact-text">Your name</label><br>
+                    <input type="text" id="name" name="full_name" class="form-control"><br><br>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email" class="contact-text">Your email</label><br>
+                    <input type="email" id="email" name="your_email" class="form-control"><br><br>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <label for="subject" class="contact-text">Subject</label><br>
+                    <input type="text" id="subject" name="your_subject" class="form-control"><br><br>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <label for="message" class="contact-text">Your message</label><br>
+                    <textarea id="message" name="your_message" rows="8" class="form-control"></textarea><br><br>
+
+                    <input type="submit" name="submit" value="Send">
+                  </div>
+                </div>
+
+
+              </form>
+
+            </div>
+
+          </div>
+
         </div>
       </div>
     </div>
